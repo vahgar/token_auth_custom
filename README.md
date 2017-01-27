@@ -8,6 +8,9 @@ This is a helper package for django_rest_framework. This gives you ability to cu
 
 ## Steps to include it in your django project:
 
+## Install DjangoRestframework
+    pip install djangorestframework
+
 ## Download:
  Download zip and Copy the folder "token_auth_custom" (The one which has __init__.py file) in your module which has user model defined in it.
 ## Check your settings.py:
