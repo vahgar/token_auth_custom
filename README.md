@@ -8,6 +8,11 @@ This is a helper package for django_rest_framework. This gives you ability to cu
 
 ## Steps to include it in your django project:
 
+## Prerequisites:
+ 1. Knowledge of Django
+ 2. Knowledge of Django Rest Framework
+
+
 ## Install DjangoRestframework
     pip install djangorestframework
 
@@ -39,4 +44,5 @@ This is a helper package for django_rest_framework. This gives you ability to cu
             url(r'^api-token-auth/', obtain_expiring_auth_token),
      ]
 
+Now you can make curl request as per the original drf documentation
 
