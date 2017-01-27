@@ -20,3 +20,13 @@ This is a helper package for django_rest_framework. This gives you ability to cu
        'rest_framework',
        'rest_framework.authtoken',
       )
+      
+      REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.SessionAuthentication',
+        '"{youremodule}".token_auth_custom.authentication.ExpiringTokenAuthentication',
+    ),
+
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    )
