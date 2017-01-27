@@ -22,11 +22,11 @@ This is a helper package for django_rest_framework. This gives you ability to cu
       )
       
       REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.SessionAuthentication',
-        '"{youremodule}".token_auth_custom.authentication.ExpiringTokenAuthentication',
-    ),
+         'DEFAULT_AUTHENTICATION_CLASSES': (
+           'rest_framework.authentication.SessionAuthentication',
+           '"{youremodule}".token_auth_custom.authentication.ExpiringTokenAuthentication',
+      ),
 
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    )
+         'DEFAULT_PERMISSION_CLASSES': (
+           'rest_framework.permissions.IsAuthenticated',
+      )
