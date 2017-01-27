@@ -44,5 +44,5 @@ This is a helper package for django_rest_framework. This gives you ability to cu
             url(r'^api-token-auth/', obtain_expiring_auth_token),
      ]
 
-Now you can make curl request as per the original DRF documentation. 
+Now you can make curl request to above url as per the original DRF documentation. 
 
