@@ -13,6 +13,7 @@ This is a helper package for django_rest_framework. This gives you ability to cu
 
 ## Download:
  Download zip and Copy the folder "token_auth_custom" (The one which has __init__.py file) in your module which has user model defined in it.
+ For better understanding have a look at directory structure of my project Link: https://github.com/vahgar/custom-user-django-learn/tree/master/accounts
 ## Check your settings.py:
       INSTALLED_APPS = (
        '.......',
@@ -31,3 +32,4 @@ This is a helper package for django_rest_framework. This gives you ability to cu
            'rest_framework.permissions.IsAuthenticated',
           )
       }
+
