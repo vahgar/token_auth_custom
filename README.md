@@ -32,4 +32,11 @@ This is a helper package for django_rest_framework. This gives you ability to cu
            'rest_framework.permissions.IsAuthenticated',
           )
       }
+## Check your Urls.py
+     from YOURMODULE.token_auth_custom.views import obtain_expiring_auth_token
+     
+     urlpatterns = [
+            url(r'^api-token-auth/', obtain_expiring_auth_token),
+     ]
+
 
